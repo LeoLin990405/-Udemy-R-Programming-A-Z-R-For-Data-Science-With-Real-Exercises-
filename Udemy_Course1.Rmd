@@ -1,0 +1,24 @@
+---
+title: "Udemy_R_Course1_Homework"
+author: "Zhongyuelin"
+date: "2022-10-12"
+output: pdf_document
+---
+Homework 2 : Law of Large Numbers
+```{r}
+N=1000
+counter=0
+for (i in rnorm(N)) {
+  if(i>-1 & i<1){
+    counter=counter+1
+  }
+  
+}
+counter/N
+
+```
+Homework 3: : Financial Statement Analysis
+```{r}
+
+```
+
